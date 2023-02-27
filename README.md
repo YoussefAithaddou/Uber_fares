@@ -1,6 +1,6 @@
 # Uber_fares
 
-Uber is a common commuting tool, I used Linear regression to estimate Uber ride costs fares based on trip distances, number of passengers and time and date of the ride.
+Uber is a common commuting tool, I used Linear regression to estimate Uber ride costs fares based on trip distances, number of passengers, time and date of the ride.
 
 * Cleaned data from corrupted and void entries using Pandas.
 * Calculated ride distances using the Haversine formula.
@@ -15,10 +15,11 @@ Uber is a common commuting tool, I used Linear regression to estimate Uber ride 
 # Data used
 * Uber Fares Dataset from Kaggle (https://www.kaggle.com/datasets/yasserh/uber-fares-dataset).
 
-# Data preparation
+# Data Analysis
 * Converted four videos to pictures frame by frame.
 * Uploaded and resized the pictures for uniformity.
 * Created separate training and testing sets.
+* Calculated correlation between variables.
 
 ![image 1](https://github.com/YoussefAithaddou/Uber_fares/blob/main/Correlation%20Matrix.png)
 
