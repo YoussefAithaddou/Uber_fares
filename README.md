@@ -2,7 +2,7 @@
 
 Uber is a common commuting tool, I used Linear regression to estimate Uber ride costs fares based on trip distances, number of passengers, time and date of the ride.
 
-* Prepared raw data by introducing timedata and so distances using the Haversine formula.
+* Prepared raw data by introducing timedata and trip distances using the Haversine formula.
 * Cleaned data from corrupted and void entries using Pandas.
 * Detected and removed errors and inconsistencies to improve regression accuracy.
 * Achieved a significant 76.08% decrease in MSE after the data cleaning.
