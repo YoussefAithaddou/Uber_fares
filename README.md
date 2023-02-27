@@ -2,11 +2,10 @@
 
 Uber is a common commuting tool, I used Linear regression to estimate Uber ride costs fares based on trip distances, number of passengers, time and date of the ride.
 
+* Prepared raw data by introducing timedata and so distances using the Haversine formula.
 * Cleaned data from corrupted and void entries using Pandas.
-* Calculated ride distances using the Haversine formula.
-* Created a location variable by clustering pickup locations using KMeans.
-* Detected and removed errors and inconsistencies.
-* Achieved an R^2 of 85.6%.
+* Detected and removed errors and inconsistencies to improve regression accuracy.
+* Achieved a significant 76.08% decrease in MSE after the data cleaning.
 
 # Resources Used
 * Python Version: 3.7
@@ -16,19 +15,17 @@ Uber is a common commuting tool, I used Linear regression to estimate Uber ride 
 * Uber Fares Dataset from Kaggle (https://www.kaggle.com/datasets/yasserh/uber-fares-dataset).
 
 # Data Analysis
+* Detected and removed unrealistic data points and corrupt entries.
 * Fetched new columns to gain more insights about data: Location, Day of the week and Distance.
 * Calculated correlation between variables.
 
 ![image 1](https://github.com/YoussefAithaddou/Uber_fares/blob/main/Correlation%20Matrix.png)
 
 # Linear regression model:
-* The linear regression model is as follows:  5.18e-02 * passenger_count + 2.66 * distance + 0.0 * Locations + 8.68e-02 * Months + 2.12e-03 * Days + 2.73e-02 * Hours
-* We see that the distance is the most important variable as excepted.
-
-
-# Model Evaluation:
-* R^2 = 85.6% 
-* 85.6% of variation of the ride fares is explained by trip distances, number of passengers and time and date of the ride 
+* MSE using raw data: 93.08
+* After analysis we see that distance is the most important variable.
+* MSE using cleaned data: 22.26
+* We achieved a significant 76.08 decrease in MSE after cleansing the data.
 
 
 ![image 2](https://github.com/YoussefAithaddou/Uber_fares/blob/main/Regression%20Result.png)
