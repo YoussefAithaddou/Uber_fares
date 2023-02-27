@@ -22,9 +22,9 @@ Uber is a common commuting tool, I used Linear regression to estimate Uber ride 
 ![image 1](https://github.com/YoussefAithaddou/Uber_fares/blob/main/Correlation%20Matrix.png)
 
 # Linear regression model:
-* MSE using raw data: 93.08
+* MSE using raw data: 93.08.
 * After analysis we see that distance is the most important variable.
-* MSE using cleaned data: 22.26
+* MSE using cleaned data: 22.26.
 * We achieved a significant 76.08% decrease in MSE after cleansing the data.
 
 
